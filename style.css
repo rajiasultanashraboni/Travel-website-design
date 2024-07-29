@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@400..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Mulish", sans-serif;
+
+}
+
+/* desfault styles */
+
+.container{
+    width: 90%;
+    margin: 50px auto;
+
+}
+
+span{
+    color: rgba(255, 84, 0, 1);
+    
+}
+
+
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-items{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.logo img{
+    width: 20%;
+    height: 80%;
+}
+
+.logo p{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+
+.nav-items p{
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.hamburger{
+    display: none;
+}
+
+/* navbar section ends here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive design starts here */
+@media screen and (max-width:576px) {
+    .hamburger{
+        display: block;
+    }
+
+    .nav-items p{
+        display: none;
+    }
+    
+}
