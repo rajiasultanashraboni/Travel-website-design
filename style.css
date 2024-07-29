@@ -124,12 +124,7 @@ input,select{
     justify-content: space-between;
 }
 .popular-content{
-    width: 40%;
-}
-
-.popular-image{
     width: 50%;
-    
 }
 
 .popular-image img{
@@ -212,5 +207,27 @@ input,select{
             width: 60%;
             
         }
+
+        /* our popular section is started */
+
+        .popular-tours{
+            flex-direction: column;
+        }
+
+        .popular-image img{
+            width: 100%;
+        }
+
+        button{
+            margin-bottom: 15px;
+            width: 110px;
+
+        }
+
+        .popular-content{
+            width: 90%;
+        }
+
+    
     
 }
