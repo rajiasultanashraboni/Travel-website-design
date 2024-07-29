@@ -65,6 +65,58 @@ span{
 
 /* navbar section ends here */
 
+/* banner section starts here */
+.banner-container{
+    background-image:linear-gradient(180deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url(./Images/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    height: 500px;
+}
+
+.banner-content h1{
+    font-size: 3rem;
+    color: whitesmoke;
+    margin-bottom: 10px;
+
+}
+
+.banner-content p{
+    width: 676px;
+    color: rgb(162, 166, 170);
+    margin-bottom: 20px;
+}
+
+input,select{
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    color: rgb(128, 134, 139);
+    margin-right: 10px;
+}
+
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color: rgba(255, 84, 0, 1);
+    
+}
+
+.banner-input{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(134, 113, 113);
+}
+/* banner section ends here */
+
 
 
 
@@ -89,5 +141,42 @@ span{
     .nav-items p{
         display: none;
     }
+
+    /* banner section */
+        .banner-container {
+            padding: 20px;
+            height: auto;
+        }
+    
+        .banner-content h1 {
+            font-size: 2rem;
+            margin-bottom: 8px;
+        }
+    
+        .banner-content p {
+            width: 100%;
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+        }
+    
+        input, select {
+            width: 90%;
+            margin-bottom: 10px !important;
+            margin: 0 auto;
+            padding: 8px;
+        }
+    
+        button {
+            width: 90%;
+            margin-bottom: 10px;
+            padding: 8px;
+        }
+    
+        .banner-input {
+            padding: 5px;
+            border-radius: 5px;
+            width: 60%;
+            
+        }
     
 }
