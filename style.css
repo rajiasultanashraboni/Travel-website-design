@@ -341,7 +341,7 @@ input,select{
     left: 40%;
     width: 50%;
     border-radius: 8px;
-    background-color: rgba(255, 255, 255, 0.15);
+    background-color: rgba(243, 243, 243, 0.6);
     backdrop-filter: blur(10px);
     padding: 50px;
     
@@ -373,7 +373,7 @@ input,select{
     right: 40%;
     width: 50%;
     border-radius: 8px;
-    background-color: rgba(255, 255, 255, 0.15);
+    background-color: rgba(243, 243, 243, 0.6);
     backdrop-filter: blur(10px);
     padding: 50px;
 }
@@ -396,6 +396,54 @@ input,select{
     
 }
 
+
+/* perfect place is started here */
+.btn{
+    margin-left: 45%;
+    margin-bottom: 50px;
+}
+
+.perfect-place{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.perfect-place-content{
+    width: 50%;
+
+}
+
+.perfect-place-video {
+
+    width: 50%;
+
+    
+}
+
+.perfect-place-video iframe{
+    border-radius: 16px;
+    width: 100%;
+    height: 100%;
+    margin-right: 10% !important;
+   
+
+    
+}
+
+.perfect-place-content h1{
+    font-weight: 900;
+    font-size: 3rem;
+    margin-bottom: 12px;
+}
+
+.perfect-place-content p,
+.perfect-place-content li{
+    margin-bottom: 12px;
+    font-size: 1.2rem;
+    width: 90%;
+}
+/* perfect place is ends here */
 
 
 
@@ -500,6 +548,46 @@ input,select{
             width: 100%;
             
         }
+
+        /* deals content */
+
+        .deals-content {
+            width: 90%;
+        }
+    
+        /* perfect place started */
+
+        .perfect-place{
+            flex-direction: column;
+        }
+        .perfect-place-video {
+
+            width: 100%;
+            height: 400px;
+        
+            
+        }
+
+        .btn{
+            width: 40%;
+            margin-left: 30%;
+        }
+
+        .perfect-place-content{
+            width: 100%;
+        
+        }
+
+        .perfect-place-content h1{
+            font-size: 2rem;
+        
+        }
+        .perfect-place-content p{
+            font-size: 1rem;
+        
+        }
+
+    
     
 
     
