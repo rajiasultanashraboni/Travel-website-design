@@ -449,6 +449,72 @@ input,select{
 }
 /* perfect place is ends here */
 
+/* newsletter section is started here */
+.newsletter-section-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.newsletter-content{
+    border: 1px solid rgba(255, 84, 0, 1);
+    width: 40%;
+    padding: 50px;
+    border-radius: 16px;
+    
+}
+
+.newsletter-content h1{
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 15px;
+    
+}
+.newsletter-content p{
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    
+    
+}
+.newsletter-content input{
+    background-color: rgba(19, 19, 24, 0.3);
+    width: 350px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+}
+.newsletter-content button{
+    width: 350px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+}
+.newsletter-image{
+    width: 50%;
+    position: relative;
+}
+.newsletter-image img{
+    width: 100%;
+}
+
+.newsletter-card{
+    background-color: rgba(255, 84, 0, 1);
+    width: fit-content;
+    padding: 15px 30px;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 10%;
+    right: 6%;
+    transform: rotate(-26deg) translateX(30px);
+}
+
+.newsletter-card p{
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+}
+/* newsletter section is ends here */
 
 
 
