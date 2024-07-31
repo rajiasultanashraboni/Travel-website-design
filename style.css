@@ -758,6 +758,25 @@ input,select{
         }
 
         .newsletter-card{
+            
+            padding: 15px 5px;
+            
+        }
+
+        .newsletter-content button{
+            width: 250px;
+            
+        }
+        .newsletter-content input{
+            width: 250px;
+            
+        }
+
+        .hide{
+            display: none;
+        }
+
+        .newsletter-card{
            
             right: 8%;
             transform: rotate(-26deg) translateX(32px);
@@ -766,11 +785,11 @@ input,select{
 
     /* footer here */
     .footer-content p{
-        width:400px;
+        width:320px;
         
     }
 
     .last-part hr{
-        width: 400px;
+        width: 320px;
     }
 }
